@@ -1,0 +1,120 @@
+#name-social-container {
+    margin-top: 20vh;
+}
+
+@media screen and (max-width: 768px) {
+    #name-social-container {
+        margin-top: 10vh;
+    }
+
+    #my-name {
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.05rem;
+    }
+
+    .social-icons {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    #name-social-container {
+        margin-top: 5vh;
+    }
+
+    #my-name {
+        font-size: 1.5rem;
+        letter-spacing: 0.001rem;
+        color: white;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons {
+        padding: 1px;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 768px) {
+    #name-social-container {
+        margin-top: 10vh;
+    }
+
+    #my-name {
+        font-size: 2rem;
+        letter-spacing: 0.01rem;
+        color: white;
+        font-weight: 700;
+        margin-bottom: 0.05rem;
+    }
+
+    .social-icons {
+        padding: 2px;
+    }
+}
+
+@media screen and (max-width: 572px) {
+    #name-social-container {
+        margin-top: 5vh;
+    }
+
+    #my-name {
+        font-size: 1.5rem;
+        letter-spacing: 0.001rem;
+        color: white;
+        font-weight: 700;
+        padding: 0;
+        margin: 0;
+    }
+
+    .social-icons {
+        padding: 1px;
+    }
+}
+
+
+.horizontal-list {
+    list-style: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+
+.horizontal-list li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: 100;
+    font-size: 0.9rem;
+}
+
+.horizontal-list li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-icons {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+
+.social-icons:hover {
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+

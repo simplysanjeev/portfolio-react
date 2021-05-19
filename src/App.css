@@ -28,6 +28,41 @@
   color: #61dafb;
 }
 
+/* Body Header */
+
+.body-header {
+  height: 65vh;
+  opacity: 0.8;
+  background-image: url("image7.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding-top: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .body-header {
+    height: 40vh;
+  }
+}
+
+@media screen and (max-width: 572px) {
+  .body-header {
+    height: 30vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #horizontal-nav-menu-container {
+    display: none;
+  }
+
+  #body-header {
+    padding-top: 0px;
+  }
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
